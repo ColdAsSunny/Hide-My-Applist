@@ -21,6 +21,10 @@ if (officialBuild) {
 android {
     namespace = "com.tsng.hidemyapplist"
 
+    defaultConfig {
+        applicationId = "github.ColdAsSunny.Hide.Apps"
+    }
+
     buildFeatures {
         buildConfig = true
         viewBinding = true
